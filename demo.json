@@ -1,0 +1,93 @@
+{
+  "framework_overview": {
+    "type": "BDD",
+    "folder_organization": {
+      "src": {
+        "test": {
+          "java": {
+            "Helpers": "Contains utility classes for common functions",
+            "PageObjects": "Contains page object classes representing web pages",
+            "PageRepository": "Contains page repository interfaces for locators",
+            "StepDef": "Contains step definitions for Cucumber tests",
+            "TestBase": "Base class for initializing tests",
+            "TestRunner": "Class to run Cucumber tests"
+          },
+          "resources": {
+            "config.properties": "Configuration properties file",
+            "Features": "Contains feature files for BDD tests"
+          }
+        }
+      }
+    }
+  },
+  "file_identification": [
+    {
+      "filename": "TestRunner.java",
+      "path": "src/test/java/TestRunner/TestRunner.java",
+      "file_type": "Java",
+      "purpose": "Runs Cucumber tests",
+      "key_functions": ["@CucumberOptions", "runWith(Cucumber.class)"],
+      "dependencies": ["Cucumber", "JUnit"],
+      "usage_context": "Main entry point for executing tests"
+    },
+    {
+      "filename": "BaseClass.java",
+      "path": "src/test/java/TestBase/BaseClass.java",
+      "file_type": "Java",
+      "purpose": "Base class for tests, initializes WebDriver and reporting",
+      "key_functions": ["extentReportSpark()", "propertiesLoad()", "autoOpenBrowser()"],
+      "dependencies": ["Selenium", "ExtentReports", "WebDriverManager"],
+      "usage_context": "Used as a parent class for all test classes"
+    },
+    {
+      "filename": "SeleniumStepDefinations.java",
+      "path": "src/test/java/StepDef/SeleniumStepDefinations.java",
+      "file_type": "Java",
+      "purpose": "Step definitions for Selenium actions",
+      "key_functions": ["userOpenURL()", "userClicksOn()"],
+      "dependencies": ["Cucumber", "Selenium", "CommonUtils"],
+      "usage_context": "Used in Cucumber scenarios"
+    },
+    {
+      "filename": "ExcelStepDefinations.java",
+      "path": "src/test/java/StepDef/ExcelStepDefinations.java",
+      "file_type": "Java",
+      "purpose": "Step definitions for Excel related actions",
+      "key_functions": [],
+      "dependencies": ["Cucumber", "PageObjects"],
+      "usage_context": "Used in Cucumber scenarios"
+    },
+    {
+      "filename": "FileStepDefinations.java",
+      "path": "src/test/java/StepDef/FileStepDefinations.java",
+      "file_type": "Java",
+      "purpose": "Step definitions for file related actions",
+      "key_functions": [],
+      "dependencies": ["Cucumber", "PageObjects"],
+      "usage_context": "Used in Cucumber scenarios"
+    },
+    {
+      "filename": "Hooks.java",
+      "path": "src/test/java/StepDef/Hooks.java",
+      "file_type": "Java",
+      "purpose": "Hooks for Cucumber tests (setup and teardown)",
+      "key_functions": ["beforeAll()", "afterAll()"],
+      "dependencies": ["Cucumber", "CommonUtils", "BaseClass"],
+      "usage_context": "Used for test lifecycle management"
+    },
+    {
+      "filename": "LoginPage.java",
+      "path": "src/test/java/PageObjects/LoginPage.java",
+      "file_type": "Java",
+      "purpose": "Page object for login actions",
+      "key_functions": ["gotoURL()", "clickButton()"],
+      "dependencies": ["CommonUtils", "SeleniumUtils"],
+      "usage_context": "Interacts with the login page elements"
+    },
+    {
+      "filename": "LoginPageRepo.java",
+      "path": "src/test/java/PageRepository/LoginPageRepo.java",
+      "file_type": "Java",
+      "purpose": "Interface for login page locators",
+      "key_functions": [],
+      "dependencies
