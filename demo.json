@@ -1,12 +1,17 @@
 {
-  "testResults": [
-    {
-      "testCase": "test1",
-      "status": "passed"
-    },
-    {
-      "testCase": "test2",
-      "status": "failed"
-    }
-  ]
+  "testAnalysis": {
+    "totalTests": 2,
+    "passed": 1,
+    "failed": 1,
+    "details": [
+      {
+        "testCase": "test1",
+        "status": "passed"
+      },
+      {
+        "testCase": "test2",
+        "status": "failed"
+      }
+    ]
+  }
 }
