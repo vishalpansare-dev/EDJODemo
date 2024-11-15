@@ -9,7 +9,7 @@
       "dependencies": []
     },
     {
-      "name": "EntryPage.java",
+      "name": "LoginPage.java",
       "type": "Page Object",
       "location": "src/test/java/PageObjects/LoginPage.java",
       "description": "Represents the login page",
@@ -28,5 +28,20 @@
       "location": "src/test/resources/config.properties",
       "description": "General configuration settings.",
       "dependencies": []
+    },
+    {
+      "name": "TestRunner.java",
+      "type": "Test Runner",
+      "location": "src/test/java/TestRunner/TestRunner.java",
+      "description": "Cucumber test runner for executing feature files.",
+      "dependencies": ["CommonUtils.java", "SeleniumStepDefinations.java"]
+    },
+    {
+      "name": "SeleniumStepDefinations.java",
+      "type": "Step Definitions",
+      "location": "src/test/java/StepDef/SeleniumStepDefinations.java",
+      "description": "Contains step definitions for Selenium tests.",
+      "dependencies": ["CommonUtils.java", "LoginPage.java"]
     }
+  ]
 }
