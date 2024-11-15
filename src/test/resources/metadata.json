@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "name": "CommonUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/CommonUtils.java",
+      "description": "Common utility functions",
+      "dependencies": []
+    },
+    {
+      "name": "EmailUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/EmailUtils.java",
+      "description": "Utility for sending emails",
+      "dependencies": []
+    },
+    {
+      "name": "ExcelUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/ExcelUtils.java",
+      "description": "Utility for reading/writing Excel files",
+      "dependencies": []
+    },
+    {
+      "name": "FileUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/FileUtils.java",
+      "description": "Utility for file operations",
+      "dependencies": []
+    },
+    {
+      "name": "Ipage.java",
+      "type": "Interface",
+      "location": "src/test/java/Helpers/Ipage.java",
+      "description": "Interface for page objects",
+      "dependencies": []
+    },
+    {
+      "name": "SeleniumUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/SeleniumUtils.java",
+      "description": "Utility for Selenium operations",
+      "dependencies": []
+    },
+    {
+      "name": "StringUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/StringUtils.java",
+      "description": "Utility for string operations",
+      "dependencies": []
+    },
+    {
+      "name": "LoginPage.java",
+      "type": "Page Object",
+      "location": "src/test/java/PageObjects/LoginPage.java",
+      "description": "Page object for login page",
+      "dependencies": []
+    },
+    {
+      "name": "ContestsPageRepo.java",
+      "type": "Page Repository",
+      "location": "src/test/java/PageRepository/ContestsPageRepo.java",
+      "description": "Repository for contests page",
+      "dependencies": []
+    },
+    {
+      "name": "DashboardPageRepo.java",
+      "type": "Page Repository",
+      "location": "src/test/java/PageRepository/DashboardPageRepo.java",
+      "description": "Repository for dashboard page",
+      "dependencies": []
+    },
+    {
+      "name": "HomePageRepo.java",
+      "type": "Page Repository",
+      "location": "src/test/java/PageRepository/HomePageRepo.java",
+      "description": "Repository for home page",
+      "dependencies": []
+    },
+    {
+      "name": "LoginPageRepo.java",
+      "type": "Page Repository",
+      "location": "src/test/java/PageRepository/LoginPageRepo.java",
+      "description": "Repository for login page",
+      "dependencies": []
+    },
+    {
+      "name": "ExcelStepDefinations.java",
+      "type": "Step Definition",
+      "location": "src/test/java/StepDef/ExcelStepDefinations.java",
+      "description": "Step definitions for Excel operations",
+      "dependencies": []
+    },
+    {
+      "name": "FileStepDefinations.java",
+      "type": "Step Definition",
+      "location": "src/test/java/StepDef/FileStepDefinations.java",
+      "description": "Step definitions for file operations",
+      "dependencies": []
+    },
+    {
+      "name": "Hooks.java",
+      "type": "Hooks",
+      "location": "src/test/java/StepDef/Hooks.java",
+      "description": "Hooks for test execution",
+      "dependencies": []
+    },
+    {
+      "name": "SeleniumStepDefinations.java",
+      "type": "Step Definition",
+      "location": "src/test/java/StepDef/SeleniumStepDefinations.java",
+      "description": "Step definitions for Selenium operations",
+      "dependencies": []
+    },
+    {
+      "name": "BaseClass.java
