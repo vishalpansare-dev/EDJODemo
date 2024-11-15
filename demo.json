@@ -1,0 +1,6 @@
+{
+  "testResults": [
+    { "testCase": "test1", "status": "passed" },
+    { "testCase": "test2", "status": "failed" }
+  ]
+}
