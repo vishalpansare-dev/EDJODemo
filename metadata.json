@@ -40,7 +40,28 @@
       "name": "application.properties",
       "type": "Config File",
       "location": "src/main/resources/application.properties",
-      "description": "Configuration file for application settings",
+      "description": "Configuration file for application settings.",
+      "dependencies": []
+    },
+    {
+      "name": "ExcelUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/ExcelUtils.java",
+      "description": "Utility class for handling Excel files.",
+      "dependencies": []
+    },
+    {
+      "name": "FileUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/FileUtils.java",
+      "description": "Utility class for file operations.",
+      "dependencies": []
+    },
+    {
+      "name": "QA_web_config.properties",
+      "type": "Config File",
+      "location": "src/test/resources/config/QA_web_config.properties",
+      "description": "Configuration for QA environment.",
       "dependencies": []
     }
   ]
