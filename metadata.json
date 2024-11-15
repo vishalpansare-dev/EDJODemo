@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/user/repository",
+  "components": [
+    {
+      "name": "CommonUtils.java",
+      "type": "Utility",
+      "location": "src/test/java/Helpers/CommonUtils.java",
+      "description": "General utility functions used across tests.",
+      "dependencies": []
+    },
+    {
+      "name": "LoginPage.java",
+      "type": "Page Object",
+      "location": "src/test/java/PageObjects/LoginPage.java",
+      "description": "Represents the login page",
+      "dependencies": []
+    },
+    {
+      "name": "Contest.feature",
+      "type": "Feature",
+      "location": "src/test/resources/Features/Contest.feature",
+      "description": "Cucumber scenarios for contests.",
+      "dependencies": []
+    },
+    {
+      "name": "config.properties",
+      "type": "Config File",
+      "location": "src/test/resources/config.properties",
+      "description": "General configuration settings.",
+      "dependencies": []
+    },
+    {
+      "name": "LoginTest.java",
+      "type": "Test Case",
+      "location": "src/test/java/tests/LoginTest.java",
+      "description": "Test case for verifying login functionality",
+      "dependencies": ["LoginPage.java", "UserDataProvider.java"]
+    },
+    {
+      "name": "application.properties",
+      "type": "Config File",
+      "location": "src/main/resources/application.properties",
+      "description": "Configuration file for application settings",
+      "dependencies": []
+    }
+  ]
+}
