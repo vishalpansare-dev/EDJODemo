@@ -8,5 +8,6 @@
       "testCase": "test2",
       "status": "failed"
     }
-  ]
+  ],
+  "formatted": true
 }
