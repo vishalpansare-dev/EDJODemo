@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/user/repository",
+  "components": [
+    {
+      "name": "PaymentTransferTest.java",
+      "type": "Test Case",
+      "location": "src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java",
+      "description": "Test case for payment transfer functionality",
+      "dependencies": ["PaymentPage.java", "PaymentTransaferSteps.java"]
+    },
+    {
+      "name": "BasePage.java",
+      "type": "Page Object",
+      "location": "src/test/java/com/edwardjones/cksn_ui_tests/_pom/BasePage.java",
+      "description": "Base class for page objects",
+      "dependencies": []
+    },
+    {
+      "name": "PaymentPage.java",
+      "type": "Page Object",
+      "location": "src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java",
+      "description": "Page object representing the payment page",
+      "dependencies": []
+    },
+    {
+      "name": "BaseSteps.java",
+      "type": "Step Definition",
+      "location": "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/BaseSteps.java",
+      "description": "Base class for step definitions",
+      "dependencies": []
+    },
+    {
+      "name": "PaymentTransaferSteps.java",
+      "type": "Step Definition",
+      "location": "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java",
+      "description": "Step definitions for payment transfer",
+      "dependencies": []
+    },
+    {
+      "name": "PaymentTransfer.json",
+      "type": "Data File",
+      "location": "src/test/resources/cksn_ui_tests/testData/PaymentTransfer.json",
+      "description": "Test data for payment transfer",
+      "dependencies": []
+    },
+    {
+      "name": "data.json",
+      "type": "Data File",
+      "location": "src/test/resources/cksn_ui_tests/testData/data.json",
+      "description": "Additional test data",
+      "dependencies": []
+    },
+    {
+      "name": "build.gradle",
+      "type": "Build File",
+      "location": "./build.gradle",
+      "description": "Gradle build file for project dependencies",
+      "dependencies": []
+    }
+  ]
+}
