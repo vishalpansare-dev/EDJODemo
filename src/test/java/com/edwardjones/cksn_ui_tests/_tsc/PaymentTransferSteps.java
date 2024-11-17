@@ -7,11 +7,10 @@ public class PaymentsTransferSteps {
     private PaymentPage paymentPage;
 
     @Step("Add item to cart")
+    @Step("Add item to cart")
     public void addItemToCart() {
-        public void addItemToCart() {
         // Implementation for adding an item to cart
         paymentPage.addItemToCart();
-    }
     }
 
     @Step("Proceed to checkout")
