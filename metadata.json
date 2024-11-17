@@ -21,12 +21,13 @@
   },
   "StepsClasses": {
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransferSteps.java"
+      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentsTransferSteps.java"
     ],
     "purpose": "To encapsulate user interactions and verification steps for a specific feature, providing a fluent API for test cases to perform actions and assertions on UI components.",
     "codingLanguage": "Java",
     "codingStyle": "Follows the Fluent Interface Pattern and BDD style using Serenity BDD. Utilizes Page Object Model (POM) for UI interactions and adheres to OOP principles.",
     "codingStandards": "1. Use PascalCase for class names (e.g., 'PaymentsTransferSteps').\n2. Use camelCase for method and variable names (e.g., 'verifyAccountsTabIsSelected').\n3. Use @Step annotation for documenting actions in Serenity reports.\n4. Return 'this' from methods for fluent chaining.\n5. Interact with UI elements using Page Object classes.\n6. Use assertions with appropriate frameworks like AssertJ.",
     "rulesToFollow": "1. Encapsulate UI interactions using Page Object classes for better maintainability.\n2. Use @Step annotations with clear descriptions for improved readability in Serenity reports.\n3. Design methods following the Fluent Interface Pattern, returning 'this' to allow chaining.\n4. Ensure that all interactions and verifications are handled within step methods, keeping test logic in test classes.\n5. Use descriptive and consistent naming conventions for methods and variables.\n6. Utilize proper error handling and logging for debugging."
+  }
   }
 }
