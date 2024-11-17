@@ -22,7 +22,8 @@
   },
   "StepsClasses": {
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java"
+      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java",
+      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
     ],
     "purpose": "To encapsulate user interactions and verification steps for a specific feature, providing a fluent API for test cases to perform actions and assertions on UI components.",
     "codingLanguage": "Java",
