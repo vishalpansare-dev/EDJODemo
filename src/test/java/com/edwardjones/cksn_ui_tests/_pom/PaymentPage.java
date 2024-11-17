@@ -15,4 +15,8 @@ public class PaymentPage extends BasePage {
         public void completeCheckout() {
         // Code to complete checkout
     }
+
+    public void verifyNoItemsInCart() {
+        // Implement logic to verify no items in cart
+    }
                 }
