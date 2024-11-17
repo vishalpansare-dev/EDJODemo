@@ -23,4 +23,11 @@ public class PaymentTransferTest extends TestManager {
                 .verifySenderBankField()
                 .verifyTransferAmountField();
     }
+
+    @Test
+    public void testCheckoutWithItemsInCart() {
+        paymentTransferSteps.addItemToCart();
+        paymentTransferSteps.proceedToCheckout();
+        paymentTransferSteps.verifyCheckoutDetails();
+    }
 }
