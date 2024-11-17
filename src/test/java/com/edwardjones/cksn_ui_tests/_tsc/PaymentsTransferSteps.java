@@ -17,5 +17,6 @@ public class PaymentsTransferSteps extends BaseSteps<PaymentsTransferSteps> {
     }
 
     public PaymentsTransferSteps verifySenderBankField() {
+        return this;
     }
 }
