@@ -25,6 +25,17 @@ public class PaymentTransferTest extends TestManager {
     }
 
     @Test
+    public void testCheckoutWithItemsInCartAndPromoCode() {
+        TransactionTestData data = this.testData.get("test_checkout_with_promo");
+        authenticationSteps.authenticateSession(data.getImpersonateID());
+        paymentTransferSteps
+                .navigateToCheckoutPage(data)
+                .applyPromoCode(data.getPromoCode())
+                .verifyItemsInCart(data)
+                .completeCheckout();
+    }
+
+    @Test
     public void testCheckoutWithEmptyCart() {
         TransactionTestData data = this.testData.get("test_empty_cart");
         authenticationSteps.authenticateSession(data.getImpersonateID());
