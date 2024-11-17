@@ -30,8 +30,9 @@ public class AddToCartSteps extends ScenarioSteps {
     }
 
     @Step("User verifies success message is displayed")
+    @Step("User verifies success message is displayed")
     public void userVerifiesSuccessMessage() {
-        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Item added to cart!");
+        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Product added to cart");
     }
 
     @Step("Add item to cart")
@@ -40,7 +41,8 @@ public class AddToCartSteps extends ScenarioSteps {
     }
 
     @Step("User verifies success message is displayed")
+    @Step("User verifies success message is displayed")
     public void userVerifiesSuccessMessage() {
-        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Item added to cart!");
+        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Product added to cart");
     }
 }
