@@ -14,3 +14,7 @@ public class PaymentPage extends BasePage {
 
         public WebElementFacade allAmcTabLocators (String userPick) { return $(allAmcTabs,userPick); }
                 }
+
+        public void checkoutWithItemsInCart() {
+            // Implementation for interacting with checkout and cart
+        }
