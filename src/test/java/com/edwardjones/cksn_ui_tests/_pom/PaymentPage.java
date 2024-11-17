@@ -12,5 +12,10 @@ public class PaymentPage extends BasePage {
         @FindBy(xpath = "//p[@class='ej-amc-error-retry__text']ª)
         private WebElementFacade textAccountSearchRetrieveErrorMsg;
 
-        public WebElementFacade allAmcTabLocators (String userPick) { return $(allAmcTabs,userPick); }
+        public void login(String username, String password) {
+            // Code to enter username and password and submit the login form
+            $(usernameField).sendKeys(username);
+            $(passwordField).sendKeys(password);
+            $(submitButton).click();
+        }
                 }
