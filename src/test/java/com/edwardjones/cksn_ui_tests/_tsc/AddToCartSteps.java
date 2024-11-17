@@ -9,9 +9,14 @@ public class AddToCartSteps extends ScenarioSteps {
 
     AddToCartPage addToCartPage;
 
-    @Step("User adds an item to the cart")
-    public void userAddsItemToCart() {
-        addToCartPage.clickAddToCart();
+    @Step("User updates product quantity in cart")
+    public void updateProductQuantity(CartTestData data, int quantity) {
+        addToCartPage.updateQuantity(data.getProductName(), quantity);
+    }
+
+    @Step("Verify product quantity in cart")
+    public void verifyProductQuantityInCart(CartTestData data, int expectedQuantity) {
+        assertThat(addToCartPage.getProductQuantity(data.getProductName())).isEqualTo(expectedQuantity);
     }
 
     @Step("Verify the cart icon is updated")
