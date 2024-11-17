@@ -19,6 +19,11 @@ public class AddToCartSteps extends ScenarioSteps {
         assert addToCartPage.isCartIconUpdated();
     }
 
+    @Step("Verify cart icon updates")
+    public void verifyCartIconUpdates() {
+        assert addToCartPage.isCartIconUpdated();
+    }
+
     @Step("Add item to cart")
     public void addItemToCart() {
         addToCartPage.clickAddToCart();
