@@ -15,12 +15,12 @@ public class PaymentTransferTest extends TestManager {
     protected PaymentsTransferSteps paymentTransferSteps;
 
     @Test
-    public void testVerifyTransferFields() {
-        TransactionTestData data = this.testData.get("test_account");
+    public void testCheckoutWithItemsInCart() {
+        TransactionTestData data = this.testData.get("test_checkout");
         authenticationSteps.authenticateSession(data.getImpersonateID());
         paymentTransferSteps
-                .navigateToPaymentTransferPage(data)
-                .verifySenderBankField()
-                .verifyTransferAmountField();
+                .navigateToCheckoutPage(data)
+                .verifyItemsInCart(data)
+                .completeCheckout();
     }
 }
