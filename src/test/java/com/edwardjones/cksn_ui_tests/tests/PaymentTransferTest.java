@@ -30,5 +30,6 @@ public class PaymentTransferTest extends TestManager {
         paymentTransferSteps.proceedToCheckout();
         paymentTransferSteps.verifyCheckoutDetails();
         // Additional assertions can be added here as needed
+        // New assertions can be added here
     }
 }
