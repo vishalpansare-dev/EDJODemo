@@ -16,6 +16,12 @@ public class PaymentsTransferSteps extends BaseSteps<PaymentsTransferSteps> {
         return this;
     }
 
+    @Step("Apply promo code")
+    public PaymentsTransferSteps applyPromoCode(String promoCode) {
+        paymentPage.applyPromoCode(promoCode);
+        return this;
+    }
+
     public PaymentsTransferSteps verifySenderBankField() {
         return this;
     }
