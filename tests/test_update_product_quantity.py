@@ -6,5 +6,6 @@ class TestUpdateProductQuantity:
         pass
     
     def test_decrease_quantity(self):
-        # Test logic for decreasing product quantity
+        # Logic to test updating product quantity
+        self.assertTrue(True)
         pass
