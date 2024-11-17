@@ -16,6 +16,10 @@ public class AddToCartPage extends PageObject {
         addToCartButton.click();
     }
 
+    public String getSuccessMessage() {
+        return successMessage.getText();
+    }
+
     public boolean isCartIconUpdated() {
         return cartIcon.isDisplayed();
     }
@@ -25,6 +29,10 @@ public class AddToCartPage extends PageObject {
 
     public void clickAddToCart() {
         addToCartButton.click();
+    }
+
+    public String getSuccessMessage() {
+        return successMessage.getText();
     }
 
     public boolean isCartIconUpdated() {
