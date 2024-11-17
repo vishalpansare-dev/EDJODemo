@@ -18,6 +18,16 @@ public class LogoutTest {
 
         // And a "Logged out successfully" message should be displayed
         // Assert that the logout message is displayed
-        assertTrue(true); // Placeholder for actual assertions
+        // Placeholder for actual login logic
+        // assertTrue(isUserLoggedIn());
+
+        // Simulate clicking the logout button
+        // clickLogoutButton();
+
+        // Assert that the user is on the login page
+        // assertTrue(isOnLoginPage());
+
+        // Assert that the logout message is displayed
+        assertEquals("Logged out successfully", getLogoutMessage());
     }
 }
