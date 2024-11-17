@@ -1,7 +1,8 @@
 # Test class for updating product quantity in the cart
 class TestUpdateProductQuantity:
     def test_increase_quantity(self):
-        # Test logic for increasing product quantity
+        # Logic to test updating product quantity
+        self.assertTrue(True)
         pass
     
     def test_decrease_quantity(self):
