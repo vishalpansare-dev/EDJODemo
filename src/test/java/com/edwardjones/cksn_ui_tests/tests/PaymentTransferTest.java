@@ -15,7 +15,17 @@ public class PaymentTransferTest extends TestManager {
     protected PaymentsTransferSteps paymentTransferSteps;
 
     @Test
-    public void testVerifyTransferFields() {
+    @Test
+    public void testUserCanLogOutAfterSuccessfulLogin() {
+        TransactionTestData data = this.testData.get("test_account");
+        authenticationSteps.authenticateSession(data.getImpersonateID());
+        // Simulate clicking the Logout button
+        paymentTransferSteps.clickLogoutButton();
+        // Verify that the user is redirected to the login page
+        paymentTransferSteps.verifyRedirectToLoginPage();
+        // Verify the logout success message
+        paymentTransferSteps.verifyLogoutSuccessMessage();
+    }
         TransactionTestData data = this.testData.get("test_account");
         authenticationSteps.authenticateSession(data.getImpersonateID());
         paymentTransferSteps
