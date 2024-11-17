@@ -19,9 +19,9 @@ public class AddToCartSteps extends ScenarioSteps {
         assert addToCartPage.isCartIconUpdated();
     }
 
-    @Step("Verify cart icon updates")
-    public void verifyCartIconUpdates() {
-        assert addToCartPage.isCartIconUpdated();
+    @Step("User verifies success message is displayed")
+    public void userVerifiesSuccessMessage() {
+        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Item added to cart!");
     }
 
     @Step("Add item to cart")
@@ -29,8 +29,8 @@ public class AddToCartSteps extends ScenarioSteps {
         addToCartPage.clickAddToCart();
     }
 
-    @Step("Verify cart icon updates")
-    public void verifyCartIconUpdates() {
-        assert addToCartPage.isCartIconUpdated();
+    @Step("User verifies success message is displayed")
+    public void userVerifiesSuccessMessage() {
+        assertThat(addToCartPage.getSuccessMessage()).isEqualTo("Item added to cart!");
     }
 }
