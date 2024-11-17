@@ -16,7 +16,8 @@
   },
   "TestClasses": {
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java"
+      "src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java",
+      "src/test/java/com/edwardjones/cksn_ui_tests/tests/UpdateProductQuantityInCartTest.java"
     ],
     "purpose": "To automate UI testing for a specific feature of the application, validating the correctness of UI elements and workflows.",
     "codingLanguage": "Java",
