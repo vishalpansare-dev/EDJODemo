@@ -23,4 +23,13 @@ public class PaymentTransferTest extends TestManager {
                 .verifyItemsInCart(data)
                 .completeCheckout();
     }
+
+    @Test
+    public void testCheckoutWithEmptyCart() {
+        TransactionTestData data = this.testData.get("test_empty_cart");
+        authenticationSteps.authenticateSession(data.getImpersonateID());
+        paymentTransferSteps
+                .navigateToCheckoutPage(data)
+                .verifyNoItemsInCart(data);
+    }
 }
