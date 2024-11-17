@@ -16,6 +16,9 @@ public class PaymentPage extends BasePage {
                 }
 
         public void checkoutWithItemsInCart() {
-            // Implementation for interacting with checkout and cart
+            public void checkoutWithItemsInCart() {
+        // Implementation for interacting with checkout and cart
+        // Ensure to interact with the cart and checkout UI elements
+    }
             // Ensure to interact with the cart and checkout UI elements
         }
