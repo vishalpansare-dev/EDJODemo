@@ -21,10 +21,9 @@ public class PaymentsTransferSteps {
     }
 
     @Step("Verify checkout details")
+    @Step("Verify checkout details")
     public void verifyCheckoutDetails() {
-        public void verifyCheckoutDetails() {
         // Implementation for verifying checkout details
         paymentPage.verifyCheckoutDetails();
-    }
     }
 }
