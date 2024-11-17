@@ -16,7 +16,10 @@ public class PaymentsTransferSteps {
 
     @Step("Proceed to checkout")
     public void proceedToCheckout() {
+        public void proceedToCheckout() {
         // Implementation for proceeding to checkout
+        paymentPage.proceedToCheckout();
+    }
     }
 
     @Step("Verify checkout details")
