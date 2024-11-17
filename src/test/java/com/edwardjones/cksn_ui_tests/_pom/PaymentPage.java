@@ -16,6 +16,10 @@ public class PaymentPage extends BasePage {
         // Code to complete checkout
     }
 
+    public void applyPromoCode(String promoCode) {
+        // Logic to apply promo code during checkout
+    }
+
     public void verifyNoItemsInCart() {
         // Implement logic to verify no items in cart
     }
