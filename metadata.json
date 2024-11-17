@@ -7,7 +7,7 @@
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
     ],
-    "lastUpdated": "2023-10-10"
+    "lastUpdated": "2023-10-11"
     "purpose": "To represent a specific web page in the application, encapsulating UI element locators and actions for interacting with the page, providing a clean and maintainable interface for test steps.",
     "codingLanguage": "Java",
     "codingStyle": "Follows the Page Object Model (POM) design pattern, using the Fluent Interface Pattern for method chaining. Utilizes Serenity BDD's WebElementFacade for enhanced web element interactions.",
