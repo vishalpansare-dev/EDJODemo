@@ -14,11 +14,12 @@ public class AddToCartTest extends TestManager {
     protected AddToCartSteps addToCartSteps;
 
     @Test
-    public void testAddToCart() {
+    public void testUpdateProductQuantityInCart() {
         CartTestData data = this.testData.get("test_product");
         addToCartSteps
                 .navigateToProductPage(data)
                 .addProductToCart(data)
-                .verifyProductInCart(data);
+                .updateProductQuantity(data, 2)
+                .verifyProductQuantityInCart(data, 2);
     }
 }
