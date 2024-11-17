@@ -16,9 +16,11 @@ public class PaymentPage extends BasePage {
                 }
 
         public void checkoutWithItemsInCart() {
-            public void checkoutWithItemsInCart() {
         // Implementation for interacting with checkout and cart
-        public void addItemToCart() {
+        // Additional implementation details can be added here
+    }
+
+    public void addItemToCart() {
         // Implementation for adding items to the cart
     }
 
@@ -29,16 +31,3 @@ public class PaymentPage extends BasePage {
     public void verifyCheckoutDetails() {
         // Implementation for verifying checkout details
     }
-    }
-            public void addItemToCart() {
-        // Implementation for adding items to the cart
-    }
-
-    public void proceedToCheckout() {
-        // Implementation for proceeding to checkout
-    }
-
-    public void verifyCheckoutDetails() {
-        // Implementation for verifying checkout details
-    }
-        }
