@@ -1,26 +1,4 @@
 {
-  "RootFiles": {
-    "listOfFiles": [
-      ".gitignore",
-      "build.gradle",
-      "gradlew",
-      "gradlew.bat",
-      "settings.gradle",
-      "metadata.json"
-    ]
-  },
-  "BuildConfig": [
-    ".idea/gradle.xml",
-    ".idea/misc.xml",
-    ".idea/vcs.xml",
-    ".idea/workspace.xml",
-    "gradle/wrapper/gradle-wrapper.jar",
-    "gradle/wrapper/gradle-wrapper.properties"
-  ],
-  "Resources": [
-    "src/test/resources/cksn_ui_tests/testData/PaymentTransfer.json",
-    "src/test/resources/cksn_ui_tests/testData/data.json"
-  ],
   "POMClasses": {
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java"
@@ -41,9 +19,6 @@
     "codingStandards": "1. Use PascalCase for class names (e.g., 'PaymentTransferTest').\n2. Use camelCase for method and variable names (e.g., 'testVerifyTransferFields').\n3. Use @Test annotation for test methods and @RunWith for defining the test runner.\n4. Separate test logic from UI actions using Step classes (e.g., 'PaymentsTransferSteps').\n5. Utilize @TestDataInjector for data-driven testing.\n6. Implement descriptive naming for methods, following a clear and consistent naming convention.",
     "rulesToFollow": "1. Use Serenity BDD framework for organizing and running tests.\n2. Delegate UI actions to separate Step classes to adhere to BDD principles.\n3. Use @Steps for injecting Step classes.\n4. Implement data-driven testing with @TestDataInjector for parameterized tests.\n5. Ensure test method names are descriptive and indicate the feature being tested.\n6. Log and handle exceptions appropriately for better test debugging and reporting."
   },
-  "UtilityClasses": [
-    "src/test/java/com/edwardjones/cksn_ui_tests/common/TestManager.java"
-  ],
   "StepsClasses": {
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java"
