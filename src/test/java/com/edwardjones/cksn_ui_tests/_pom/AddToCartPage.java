@@ -20,8 +20,7 @@ public class AddToCartPage extends PageObject {
         return cartIcon.isDisplayed();
     }
 
-    public boolean isCartIconUpdated() {
-        // Logic to check if cart icon is updated
-        return cartIcon.isDisplayed();
+    public String getSuccessMessage() {
+        return successMessage.getText();
     }
 }
