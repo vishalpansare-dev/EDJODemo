@@ -20,6 +20,17 @@ public class AddToCartPage extends PageObject {
         return cartIcon.isDisplayed();
     }
 
+    @FindBy(id = "cart-icon")
+    private WebElementFacade cartIcon;
+
+    public void clickAddToCart() {
+        addToCartButton.click();
+    }
+
+    public boolean isCartIconUpdated() {
+        return cartIcon.isDisplayed();
+    }
+
     public String getSuccessMessage() {
         return successMessage.getText();
     }
