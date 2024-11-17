@@ -1,6 +1,7 @@
 package com.edwardjones.cksn_ui_tests._tsc;
 
 import net.serenitybdd.core.steps.ScenarioSteps;
+    import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Step;
 import com.edwardjones.cksn_ui_tests._pom.AddToCartPage;
 
