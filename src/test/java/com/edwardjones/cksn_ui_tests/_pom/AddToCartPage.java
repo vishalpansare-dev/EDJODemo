@@ -16,6 +16,9 @@ public class AddToCartPage extends PageObject {
         addToCartButton.click();
     }
 
+    @FindBy(id = "success-message")
+    private WebElementFacade successMessage;
+
     public String getSuccessMessage() {
         return successMessage.getText();
     }
@@ -31,6 +34,9 @@ public class AddToCartPage extends PageObject {
         addToCartButton.click();
     }
 
+    @FindBy(id = "success-message")
+    private WebElementFacade successMessage;
+
     public String getSuccessMessage() {
         return successMessage.getText();
     }
@@ -38,6 +44,9 @@ public class AddToCartPage extends PageObject {
     public boolean isCartIconUpdated() {
         return cartIcon.isDisplayed();
     }
+
+    @FindBy(id = "success-message")
+    private WebElementFacade successMessage;
 
     public String getSuccessMessage() {
         return successMessage.getText();
