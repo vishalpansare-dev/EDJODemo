@@ -4,6 +4,9 @@
       "src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java",
       "src/test/java/com/edwardjones/cksn_ui_tests/_pom/AddToCartPage.java"
     ],
+    "listOfFiles": [
+      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
+    ],
     "lastUpdated": "2023-10-10"
     "purpose": "To represent a specific web page in the application, encapsulating UI element locators and actions for interacting with the page, providing a clean and maintainable interface for test steps.",
     "codingLanguage": "Java",
