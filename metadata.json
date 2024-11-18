@@ -1,5 +1,6 @@
 {
   "POMClasses": {
+    "path": "src/test/java/com/edwardjones/cksn_ui_tests/_pom/",
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java",
       "src/test/java/com/edwardjones/cksn_ui_tests/_pom/AddToCartPage.java"
@@ -15,6 +16,7 @@
     "rulesToFollow": "1. Encapsulate locators as private variables and provide public methods for interactions.\n2. Use Serenity's WebElementFacade for managing element state and synchronization.\n3. Implement fluent API design by returning 'this' or WebElementFacade to allow method chaining.\n4. Avoid directly accessing locators in test classes; interact through public methods.\n5. Handle exceptions gracefully and include logging for better traceability.\n6. Keep method names descriptive and reflective of the actions performed."
   },
   "TestClasses": {
+    "path": "src/test/java/com/edwardjones/cksn_ui_tests/tests/",
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java"
     ],
@@ -25,6 +27,7 @@
     "rulesToFollow": "1. Use Serenity BDD framework for organizing and running tests.\n2. Delegate UI actions to separate Step classes to adhere to BDD principles.\n3. Use @Steps for injecting Step classes.\n4. Implement data-driven testing with @TestDataInjector for parameterized tests.\n5. Ensure test method names are descriptive and indicate the feature being tested.\n6. Log and handle exceptions appropriately for better test debugging and reporting."
   },
   "StepsClasses": {
+    "path": "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/",
     "listOfFiles": [
       "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java",
       "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
