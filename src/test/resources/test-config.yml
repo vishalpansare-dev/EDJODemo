@@ -1,0 +1,4 @@
+# Test configuration
+config:
+  enabled: true
+  timeout: 30
