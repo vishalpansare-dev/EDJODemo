@@ -10,7 +10,9 @@
     "codingStyle": "Follows the Page Object Model (POM) design pattern, using the Fluent Interface Pattern for method chaining. Utilizes Serenity BDD's WebElementFacade for enhanced web element interactions.",
     "codingStandards": "1. Use PascalCase for class names (e.g., 'PaymentPage').\n2. Use camelCase for method and variable names (e.g., 'accountsHeading').\n3. Use @FindBy annotations for defining element locators.\n4. Interact with elements using WebElementFacade for better synchronization and error handling.\n5. Extend a common 'BasePage' to reuse shared methods and properties.\n6. Avoid hardcoding locators; define them using appropriate strategies (e.g., xpath, cssSelector).",
     "rulesToFollow": "1. Encapsulate locators as private variables and provide public methods for interactions.\n2. Use Serenity's WebElementFacade for managing element state and synchronization.\n3. Implement fluent API design by returning 'this' or WebElementFacade to allow method chaining.\n4. Avoid directly accessing locators in test classes; interact through public methods.\n5. Handle exceptions gracefully and include logging for better traceability.\n6. Keep method names descriptive and reflective of the actions performed."
-  },
+  ,
+  "tests": ["tests/test_case.py", "tests/POM.py", "tests/steps.py"]
+},
   "TestClasses": {
     "directory_path": "src/test/java/com/edwardjones/cksn_ui_tests/tests/",
     "listOfFiles": [
@@ -21,7 +23,9 @@
     "codingStyle": "Follows BDD (Behavior-Driven Development) using Serenity BDD, along with JUnit for test organization. It adheres to OOP principles, focusing on modular, reusable, and readable test components.",
     "codingStandards": "1. Use PascalCase for class names (e.g., 'PaymentTransferTest').\n2. Use camelCase for method and variable names (e.g., 'testVerifyTransferFields').\n3. Use @Test annotation for test methods and @RunWith for defining the test runner.\n4. Separate test logic from UI actions using Step classes (e.g., 'PaymentsTransferSteps').\n5. Utilize @TestDataInjector for data-driven testing.\n6. Implement descriptive naming for methods, following a clear and consistent naming convention.",
     "rulesToFollow": "1. Use Serenity BDD framework for organizing and running tests.\n2. Delegate UI actions to separate Step classes to adhere to BDD principles.\n3. Use @Steps for injecting Step classes.\n4. Implement data-driven testing with @TestDataInjector for parameterized tests.\n5. Ensure test method names are descriptive and indicate the feature being tested.\n6. Log and handle exceptions appropriately for better test debugging and reporting."
-  },
+  ,
+  "tests": ["tests/test_case.py", "tests/POM.py", "tests/steps.py"]
+},
   "StepsClasses": {
     "directory_path": "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/",
     "listOfFiles": [
@@ -32,5 +36,9 @@
     "codingStyle": "Follows the Fluent Interface Pattern and BDD style using Serenity BDD. Utilizes Page Object Model (POM) for UI interactions and adheres to OOP principles.",
     "codingStandards": "1. Use PascalCase for class names (e.g., 'PaymentsTransferSteps').\n2. Use camelCase for method and variable names (e.g., 'verifyAccountsTabIsSelected').\n3. Use @Step annotation for documenting actions in Serenity reports.\n4. Return 'this' from methods for fluent chaining.\n5. Interact with UI elements using Page Object classes.\n6. Use assertions with appropriate frameworks like AssertJ.",
     "rulesToFollow": "1. Encapsulate UI interactions using Page Object classes for better maintainability.\n2. Use @Step annotations with clear descriptions for improved readability in Serenity reports.\n3. Design methods following the Fluent Interface Pattern, returning 'this' to allow chaining.\n4. Ensure that all interactions and verifications are handled within step methods, keeping test logic in test classes.\n5. Use descriptive and consistent naming conventions for methods and variables.\n6. Utilize proper error handling and logging for debugging."
-  }
+  ,
+  "tests": ["tests/test_case.py", "tests/POM.py", "tests/steps.py"]
+}
+,
+  "tests": ["tests/test_case.py", "tests/POM.py", "tests/steps.py"]
 }
