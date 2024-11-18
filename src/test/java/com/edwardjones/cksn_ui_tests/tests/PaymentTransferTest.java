@@ -1,8 +1,16 @@
 package com.edwardjones.cksn_ui_tests.tests;
 
+import com.edwardjones.SerenityRunner;
+import com.edwardjones.TestDataInjector;
+import com.edwardjones.cksn_ui_tests._tsc.AuthenticationSteps;
 import com.edwardjones.cksn_ui_tests._tsc.PaymentsTransferSteps;
 import com.edwardjones.cksn_ui_tests.common.TestManager;
+import net.serenitybdd.annotations.Steps;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import com.edwardjones.TransactionTestData;
+
+import java.util.Map;
 
 
 @RunWith(SerenityRunner.class)
@@ -13,6 +21,8 @@ public class PaymentTransferTest extends TestManager {
 
     @Steps
     protected PaymentsTransferSteps paymentTransferSteps;
+    @Steps
+    protected AuthenticationSteps authenticationSteps;
 
     @Test
     public void testVerifyTransferFields() {

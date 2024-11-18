@@ -2,13 +2,9 @@
   "POMClasses": {
     "directory_path": "src/test/java/com/edwardjones/cksn_ui_tests/_pom/",
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java",
-      "src/test/java/com/edwardjones/cksn_ui_tests/_pom/AddToCartPage.java"
+      "PaymentPage.java"
     ],
-    "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
-    ],
-    "lastUpdated": "2023-10-10"
+    "lastUpdated": "2023-10-10",
     "purpose": "To represent a specific web page in the application, encapsulating UI element locators and actions for interacting with the page, providing a clean and maintainable interface for test steps.",
     "codingLanguage": "Java",
     "codingStyle": "Follows the Page Object Model (POM) design pattern, using the Fluent Interface Pattern for method chaining. Utilizes Serenity BDD's WebElementFacade for enhanced web element interactions.",
@@ -18,7 +14,7 @@
   "TestClasses": {
     "directory_path": "src/test/java/com/edwardjones/cksn_ui_tests/tests/",
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java"
+      "PaymentTransferTest.java"
     ],
     "purpose": "To automate UI testing for a specific feature of the application, validating the correctness of UI elements and workflows.",
     "codingLanguage": "Java",
@@ -29,8 +25,7 @@
   "StepsClasses": {
     "directory_path": "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/",
     "listOfFiles": [
-      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentTransaferSteps.java",
-      "src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java"
+      "PaymentTransaferSteps.java"
     ],
     "purpose": "To encapsulate user interactions and verification steps for a specific feature, providing a fluent API for test cases to perform actions and assertions on UI components.",
     "codingLanguage": "Java",

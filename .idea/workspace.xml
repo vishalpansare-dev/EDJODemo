@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d261ad2b-26be-499a-9165-90bb114b51a9" name="Changes" comment="">
+    <list default="true" id="d261ad2b-26be-499a-9165-90bb114b51a9" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edwardjones/SerenityRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edwardjones/TestDataInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/edwardjones/TransactionTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AuthenticationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_pom/AddToCartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_pom/CartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_pom/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_tsc/AddToCartSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_tsc/CartSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentsTransferSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/_tsc/PaymentsTransferSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/tests/AddToCartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/edwardjones/cksn_ui_tests/tests/PaymentTransferTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -58,13 +74,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.edwardjones.cksn_ui_tests.tests" />
       <recent name="com.edwardjones.cksn_ui_tests._tsc" />
     </key>
   </component>
@@ -112,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731850055138</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Init">
+      <created>1731902255708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731902255708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
